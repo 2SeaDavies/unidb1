@@ -6,6 +6,11 @@
  * Time: 14:24
  */
 
-$db = new mysqli(
-    ""
-)
+include ("dbconnect.php");
+
+$db;
+
+        
+if($db->connect_errno) {
+    die('connectfailed['.$db->connect_error.']');
+}
