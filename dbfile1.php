@@ -14,3 +14,7 @@ $db;
 if($db->connect_errno) {
     die('connectfailed['.$db->connect_error.']');
 }
+
+else {
+    echo" lol";
+}
