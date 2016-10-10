@@ -20,7 +20,7 @@ print('<hr>');
  * Time: 14:02
  */
 print('<strong>Server Conn. Stat.</strong>');
-include("db_connect.php"); // INCLUDE THE CONNECTION FILE
+include("dbconnect.php"); // INCLUDE THE CONNECTION FILE
 ?>
 <hr>
 <div>
