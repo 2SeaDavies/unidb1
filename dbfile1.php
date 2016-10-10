@@ -27,3 +27,5 @@ while($row=$result->fetch_array()){
 }
 echo "wat";
 $result->close();
+
+?>
