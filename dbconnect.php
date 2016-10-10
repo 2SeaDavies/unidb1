@@ -12,4 +12,4 @@ define('DB_USERNAME','bdd5d40f057cd1');
 define('DB_PASSWORD','bd25e521');
 define('DB_DATABASE','cregdata1');
 
-$db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+$db_conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
