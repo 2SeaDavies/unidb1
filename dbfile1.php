@@ -18,3 +18,6 @@ if($db->connect_errno) {
 else {
     echo" lol";
 }
+
+$sql_query="SELECT * FROM superheroes WHERE superpower LIKE '%aser%'";
+$result = $db->query($sql_query);
