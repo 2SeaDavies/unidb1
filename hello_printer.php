@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SQL Query Generation</title>
+    <title>lol</title>
 </head>
 <body>
 <?php
@@ -15,7 +15,7 @@
 
 
 $planet = $_GET["planet"];
-echo "hello ".$planet;
+echo "<p>hello".$planet."</p>";
 ?>
 </body>
 </html>
