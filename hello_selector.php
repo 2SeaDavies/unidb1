@@ -7,9 +7,9 @@
 <body>
 <?php
 
-echo "<a href='www.hello_printer.php?planet=Earth'>Earth </a>";
-echo "<a href='www.hello_printer.php?planet=Mars'>Mars </a>";
-echo "<a href='www.hello_printer.php?planet=Venus'>Venus </a>";
+echo "<a href='hello_printer.php?planet=Earth'>Earth </a>";
+echo "<a href='hello_printer.php?planet=Mars'>Mars </a>";
+echo "<a href='hello_printer.php?planet=Venus'>Venus </a>";
 
 
 
