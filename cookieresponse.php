@@ -14,8 +14,8 @@ $name = $_POST["Username"];
 $word = $_POST["Password"];
 
 if ($name = $username && $word == $password) {
-    session_start();
-    $_SESSION['access_level_session'] = 'standarduser';
+    setcookie('session_level','standarduser');
+
 }
 
 header('Location: homepage.php');

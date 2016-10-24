@@ -8,9 +8,9 @@
 
 
 <?php
-session_start();
-    $access_level = $_SESSION['access_level_session'];
-//$access_level = $_COOKIE['access_level'];
+//session_start();
+  //  $access_level = $_SESSION['access_level_session'];
+$access_level = $_COOKIE['access_level'];
 
 
 
