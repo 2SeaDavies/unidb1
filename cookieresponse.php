@@ -15,7 +15,7 @@ $word = $_POST["Password"];
 
 if ($name = $username && $word == $password) {
     session_start();
-    $_SESSION['access_level_session'] = "standard_user";
+    $_SESSION['access_level_session'] = "standarduser";
 }
 
 header('Location: homepage.php');
