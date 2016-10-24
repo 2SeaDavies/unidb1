@@ -10,10 +10,10 @@ $username = "lol";
 $password = "lol";
 
 
-$name =$_POST["Username"];
+$name = $_POST["Username"];
 $word = $_POST["Password"];
 
-if ($username == $name && $password == $word) {
+if ($name = $username && $word == $password) {
     setcookie('access_level','standarduser');
 }
 

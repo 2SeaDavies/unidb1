@@ -23,6 +23,7 @@ function displayAccessLevelInformation($access_level) {
     }
 }
 
+displayAccessLevelInformation($access_level);
 
 ?>
 
