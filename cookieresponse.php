@@ -14,7 +14,7 @@ $name = $_POST["Username"];
 $word = $_POST["Password"];
 
 if ($name = $username && $word == $password) {
-    setcookie('session_level','standarduser');
+    setcookie('session_level', 'standarduser');
 
 }
 
