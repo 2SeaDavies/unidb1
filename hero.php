@@ -8,7 +8,7 @@
 
 
 
-<form action="notabadname/response.php" method = "post">
+<form action="notabadname/scripts/response.php" method = "post">
     <label>Name</label><input type ="text" name="name">
     <label>Gender</label><input type="text" name="gender">
     <label>Power</label><input type = "text" name = "power">
